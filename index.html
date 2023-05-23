@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="difficulty">
+    <button onclick="easy()">Easy</button>
+    <button onclick="medium()">Medium</button>
+    <button onclick="hard()">Hard</button>
+  </div>
+
+  <button id="startButton">Start</button>
+  <button onClick="window.location.reload();">Reset</button>
+
+    <p id="clickCount"></p>
+    <p id="pairsTotal"></p>
+    <p id="pairsMade"></p>
+    <p id="pairsLeft"></p>
+    <p id="timer"></p>
+    <div id="game"></div>
+
+    <button onclick="dark()">Dark</button>
+    <button onclick="light()">Light</button>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
